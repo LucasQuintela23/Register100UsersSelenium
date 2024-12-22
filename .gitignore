@@ -1,0 +1,32 @@
+# Ignorar arquivos e pastas do ambiente virtual
+venv/
+env/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignorar logs de execução e relatórios temporários
+*.log
+*.tmp
+*.out
+*.err
+
+# Ignorar arquivos de configuração de IDEs
+.vscode/
+.idea/
+*.iml
+
+# Ignorar arquivos de cache e temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de configuração do Selenium WebDriver baixados
+*.chromedriver
+*.geckodriver
+*.edgedriver
+*.operadriver
